@@ -1,2 +1,29 @@
-
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse ;
+}
+table{
+    position: absolute;
+    height: 10vh;
+    width: 30vw;
+    top: 10vh;
+    left: 55vh;
+}
+.name{
+    text-align: right;
+}
+.media{
+    position: absolute;
+    top: 40vh;
+}
+h1{
+    left: 26vw;
+    position: absolute;
+    bottom: 45vh;
+}
+ol{
+    display: grid;
+    grid-template-columns: 200px auto auto;
+    grid-gap: 50px;
+}
 /* Your CSS Code here. */
